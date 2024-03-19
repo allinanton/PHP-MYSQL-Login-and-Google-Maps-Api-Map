@@ -1,37 +1,26 @@
-# Raport Proiect PAI - Dezvoltare Website Personal și Aplicație Web
+# Project Report PAI - Personal Website and Web Application Development
 
-## Introducere
-Proiectul pentru Programarea Aplicațiilor Internet (PAI) a constat în crearea unui website personal și a unei aplicații web interactive. Website-ul a fost conceput pentru a prezenta în detaliu proiectele academice, în timp ce aplicația web a integrat funcționalități precum autentificarea și afișarea interactivă a locurilor vizitate pe hartă.
+## Introduction
+The Project for Internet Application Programming (PAI) involved the development of a personal website and an interactive web application. The website was designed to provide detailed information about academic projects, while the web application integrated functionalities such as authentication and interactive display of visited locations on a map.
 
-## Structura Proiectului
-Website-ul este format din pagini HTML și PHP, cu stilizare prin fișiere CSS și îmbunătățiri de funcționalitate cu ajutorul JavaScript.
+## Project Structure
+The project's structure comprises HTML and PHP pages, styled using CSS files, and enhanced with JavaScript functionality.
 
-- `index.html` (CV): Această pagină servește ca hub central, oferind o prezentare detaliată a proiectelor academice și facilitând navigarea interactivă în cadrul CV-ului.
-- `login.php`: Această pagină facilitează autentificarea utilizatorilor prin sesiuni PHP, cu o interfață simplă și intuitivă. După autentificare reușită, utilizatorii sunt redirecționați către pagina principală (`index.php`), iar în caz de eșec, primesc mesaje explicative.
-- `logout.php`: Gestionează procesul de deconectare, redirecționând utilizatorii către pagina de autentificare. Asigură închiderea sesiunii pentru menținerea securității.
-- `map.php`: Această pagină prezintă o hartă Google interactivă, evidențiind locurile vizitate de utilizator în baza de date. Coordonatele geografice sunt extrase dintr-o bază de date MySQL.
-- `register.php`: Pagina permite utilizatorilor să se înregistreze prin completarea unui formular, contribuind astfel la extinderea bazei de date.
-- `reglog.php`: Centralizează procesele de autentificare și înregistrare, oferind o interfață intuitivă și redirecționare corespunzătoare. 
-- `index.php`: Pagina de după autentificare servește ca punct central de acces, oferind butoane pentru acces rapid la hartă sau CV.
+- `index.html` (CV): This page serves as a central hub, offering a detailed presentation of academic projects and facilitating interactive navigation within the CV.
+- `login.php`: This page facilitates user authentication through PHP sessions, featuring a simple and intuitive interface. Upon successful authentication, users are redirected to the main page (`index.php`), while in case of failure, explanatory messages are provided.
+- `logout.php`: Manages the logout process, redirecting users to the login page. It ensures session closure for maintaining security.
+- `map.php`: This page presents an interactive Google map, highlighting locations visited by the user based on the database. Geographic coordinates are extracted from a MySQL database.
+- `register.php`: This page allows users to register by completing a form, contributing to the expansion of the database.
+- `reglog.php`: Centralizes the authentication and registration processes, providing an intuitive interface and appropriate redirection.
+- `index.php`: The page after authentication serves as a central access point, offering buttons for quick access to the map or CV.
 
-## Implementare Tehnică
-Implementarea tehnică a proiectului s-a bazat pe utilizarea sesiunilor PHP pentru gestionarea stării de autentificare și pe crearea a două tabele MySQL (`users` și `points`) pentru stocarea datelor necesare funcționalităților. Datele despre utilizatori și punctele pe hartă sunt gestionate eficient prin interacțiunea cu baza de date.
+## Technical Implementation
+The technical implementation of the project relied on the use of PHP sessions for managing authentication state and the creation of two MySQL tables (`users` and `points`) for storing necessary data for functionalities. User data and map points are efficiently managed through interaction with the database.
 
+![Login page (non-logged)](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/eb51877b-aaa5-4f75-86e5-279b63090c14)
 
+![Front page (after successful login)](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/eea9fac6-81b4-4902-8e13-c700acbc1c36)
 
+![CV page (after interacting with the CV button)](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/75956895-7150-4e7b-9f51-60a868acb26c)
 
-![image](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/eb51877b-aaa5-4f75-86e5-279b63090c14)
-1.1	Login page (non logged)
-
-
-![image](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/eea9fac6-81b4-4902-8e13-c700acbc1c36)
-1.2	Front page (after successful login)
-
-![image](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/75956895-7150-4e7b-9f51-60a868acb26c)
-1.3	Cv page (after interacting with the cv button)
-
-![image](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/739d0d00-569e-42b9-9428-2dd36a6da563)
-1.4 Map page (after interacting with map button)
-
-
-
+![Map page (after interacting with the map button)](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/739d0d00-569e-42b9-9428-2dd36a6da563)
