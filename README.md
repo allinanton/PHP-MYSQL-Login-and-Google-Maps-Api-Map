@@ -17,10 +17,15 @@ The project's structure comprises HTML and PHP pages, styled using CSS files, an
 ## Technical Implementation
 The technical implementation of the project relied on the use of PHP sessions for managing authentication state and the creation of two MySQL tables (`users` and `points`) for storing necessary data for functionalities. User data and map points are efficiently managed through interaction with the database.
 
-![Login page (non-logged)](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/eb51877b-aaa5-4f75-86e5-279b63090c14)
+### Screenshots
+1. **Login page (non-logged):**
+   ![Login page](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/eb51877b-aaa5-4f75-86e5-279b63090c14)
 
-![Front page (after successful login)](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/eea9fac6-81b4-4902-8e13-c700acbc1c36)
+2. **Front page (after successful login):**
+   ![Front page](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/eea9fac6-81b4-4902-8e13-c700acbc1c36)
 
-![CV page (after interacting with the CV button)](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/75956895-7150-4e7b-9f51-60a868acb26c)
+3. **CV page (after interacting with the CV button):**
+   ![CV page](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/75956895-7150-4e7b-9f51-60a868acb26c)
 
-![Map page (after interacting with the map button)](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/739d0d00-569e-42b9-9428-2dd36a6da563)
+4. **Map page (after interacting with the map button):**
+   ![Map page](https://github.com/allinanton/PHP-MYSQL-Login-and-Google-Maps-Api-Map/assets/61775219/739d0d00-569e-42b9-9428-2dd36a6da563)
